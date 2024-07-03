@@ -28,7 +28,11 @@ public class Computers {
     }
 
     Computers(String iniCasing){
-        this.casing = iniCasing;
+
+        this(iniCasing, null); // ini merupakan kata kunci this untuk memanggil constructor yang lain
+        this.racing(); // ini merupakan kata kunci untuk memanggil method yang ada di class ini
+        this.casing = iniCasing; // this juga bisa di gunakan untuk memanggil field
+
     }
 
     Computers(){
