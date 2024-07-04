@@ -1,3 +1,5 @@
+package com.java.oop.app;
+import com.java.oop.data.*;
 public class CastleGames {
     public static void main(String[] args) {
         Castle castle = new Castle("Arthurs", "Assasins");

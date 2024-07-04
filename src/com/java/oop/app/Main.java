@@ -1,10 +1,14 @@
+package com.java.oop.app;
+
+import com.java.oop.data.Computers;
+
 public class Main {
     public static void main(String[] args) {
 
         // Nah untuk memanggil class lain kalian harus membuat object nya terlebih dahulu
         //dan ada juga berbagai macam cara pemanggilan
 
-        /**
+        /*
          * Untuk penggunan Constructor kalian bisa menggunakan nya saat object dari class tersebut dibuat
          */
 

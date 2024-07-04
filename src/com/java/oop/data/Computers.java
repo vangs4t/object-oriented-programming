@@ -1,3 +1,5 @@
+package com.java.oop.data;
+
 /**
  * Ini merupakan class atau blue print untuk membuat, menjalankan, menulis kode dan sebagian nya
  * untuk mengimplementasikan sebuah class, nama class dengan nama file nya harus sama
@@ -11,8 +13,8 @@ public class Computers {
      * field juga bisa di panggil di main method
      */
 
-    String casing;
-    String motherboard;
+    public String casing;
+    public String motherboard;
 
     /**
      * Constructor merupakan method yang dipanggil pertamakali saat method itu di implementasikan
@@ -22,12 +24,12 @@ public class Computers {
      * kalian juga bisa memanggil constructor lain dengan kata kunci this
      */
 
-    Computers(String iniCasing, String iniMotherboard){
+    public Computers(String iniCasing, String iniMotherboard){
         casing = iniCasing;
         motherboard = iniMotherboard;
     }
 
-    Computers(String iniCasing){
+    public Computers(String iniCasing){
 
         this(iniCasing, null); // ini merupakan kata kunci this untuk memanggil constructor yang lain
         this.racing(); // ini merupakan kata kunci untuk memanggil method yang ada di class ini
@@ -35,7 +37,7 @@ public class Computers {
 
     }
 
-    Computers(){
+    public Computers(){
     }
 
     public void racing(){

@@ -1,5 +1,7 @@
+package com.java.oop.data;
+
 public class OrcCastle extends Castle{ /* Gunakan kata kunci extend untuk mewariskan class */
-    OrcCastle(String orcKing){
+    public OrcCastle(String orcKing){
         super(orcKing,null);
     }
     /**
@@ -9,7 +11,7 @@ public class OrcCastle extends Castle{ /* Gunakan kata kunci extend untuk mewari
      * kita tidak bisa lagi menggunakan method yang ada di parent melalui class child
      * kecuali kita menggunakan kata kunci "super"
      */
-    void mainCastle(){
+    public void mainCastle(){
         System.out.println("My Highness " + king + " of abbyss, We Have " + army + " ready for wars");
     }
 
