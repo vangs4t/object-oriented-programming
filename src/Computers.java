@@ -18,7 +18,7 @@ public class Computers {
      * Constructor merupakan method yang dipanggil pertamakali saat method itu di implementasikan
      * untuk membuat constructor kalian cukup membuat method dari nama class tersebut
      * constructor tidak menggunakan fungsi static maupun void
-     * constructor juga bisa melakukan overriding atau membuat duplikat namun parameternya harus berbeda2
+     * constructor juga bisa melakukan overloading atau membuat duplikat namun parameternya harus berbeda2
      * kalian juga bisa memanggil constructor lain dengan kata kunci this
      */
 
