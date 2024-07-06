@@ -10,9 +10,9 @@ public class Castle {
     public String army;
 //    Integer armyQuantity;
 
-    public Castle(String engladKing, String englandArmy){
-        this.king = engladKing;
-        this.army = englandArmy;
+    public Castle(String elfKing, String elfArmy){
+        this.king = elfKing;
+        this.army = elfArmy;
     }
 
     public void mainCastle(){
