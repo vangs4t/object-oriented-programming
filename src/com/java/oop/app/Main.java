@@ -13,23 +13,23 @@ public class Main {
          */
 
         var laptop = new Computers();
-        laptop.casing = "Acer"; // Kalian juga bisa mengatur value dari sebuah field dengan memanggil object yang sudah di buat
+        laptop.setCasing("Acer"); // Kalian juga bisa mengatur value dari sebuah field dengan memanggil object yang sudah di buat
                                 // dengan menambahkan tanda '.' titik lalu tinggal tulis aja nama variable nya
 
-        laptop.motherboard = "Amd intels";
-        System.out.println(laptop.casing);
-        System.out.println(laptop.motherboard);
+        laptop.setMotherboard("Amd Intels");
+        System.out.println(laptop.getCasing());
+        System.out.println(laptop.getMotherboard());
         laptop.racing();
 
 
         Computers smartphone = new Computers("Smasnug", "Exynos");
-        System.out.println(smartphone.casing);
-        System.out.println(smartphone.motherboard);
+        System.out.println(smartphone.getCasing());
+        System.out.println(smartphone.getMotherboard());
 
 
         Computers pc;
         pc = new Computers("Politron");
-        System.out.println(pc.casing);
+        System.out.println(pc.getCasing());
 
 
     }

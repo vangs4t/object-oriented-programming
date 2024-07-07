@@ -13,8 +13,40 @@ public class Computers {
      * field juga bisa di panggil di main method
      */
 
-    public String casing;
-    public String motherboard;
+    private String firmware;
+    private String motherboard;
+    private Integer ssd;
+
+
+    /**
+     * Getter dan setter digunakan untuk mendapatkan field dengan cara lebih aman agar tidak sembarang  orang bisa
+     * mengubah index dari field tersebut
+     * @return
+     */
+
+    public Integer getSsd() {
+        return ssd;
+    }
+
+    public void setSsd(Integer ssd) {
+        this.ssd = ssd;
+    }
+
+    public String getCasing() {
+        return firmware;
+    }
+
+    public void setCasing(String firmware) {
+        this.firmware = firmware;
+    }
+
+    public String getMotherboard() {
+        return motherboard;
+    }
+
+    public void setMotherboard(String motherboard) {
+        this.motherboard = motherboard;
+    }
 
     /**
      * Constructor merupakan method yang dipanggil pertamakali saat method itu di implementasikan
@@ -25,7 +57,7 @@ public class Computers {
      */
 
     public Computers(String iniCasing, String iniMotherboard){
-        casing = iniCasing;
+        firmware = iniCasing;
         motherboard = iniMotherboard;
     }
 
@@ -33,7 +65,7 @@ public class Computers {
 
         this(iniCasing, null); // ini merupakan kata kunci this untuk memanggil constructor yang lain
         this.racing(); // ini merupakan kata kunci untuk memanggil method yang ada di class ini
-        this.casing = iniCasing; // this juga bisa di gunakan untuk memanggil field
+        this.firmware = iniCasing; // this juga bisa di gunakan untuk memanggil field
 
     }
 
@@ -41,7 +73,7 @@ public class Computers {
     }
 
     public void racing(){
-        System.out.println(casing);
+        System.out.println(firmware);
         System.out.println(motherboard);
     }
 }
