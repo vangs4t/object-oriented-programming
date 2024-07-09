@@ -19,4 +19,15 @@ public class Castle {
         System.out.println("My Highness " + king + " king of Englads, We have " + army + " ready for wars");
     }
 
+    /**
+     * Innerclass adalah membuat class di dalam class
+     * innerclass juga bisa menggunaakn hampir semua isi kode di dalam parent nya
+     */
+    public static class Barrack {
+        public String prajurit;
+        public void printOut(){
+
+        }
+    }
+
 }

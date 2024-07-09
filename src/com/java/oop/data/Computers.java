@@ -6,7 +6,7 @@ package com.java.oop.data;
  * kalian juga bisa membuat method apa saja di dalam sebuah class
  */
 
-public class Computers {
+public class Computers { // Kita tidak bisa mewariskan class product elektronik karena sudah final
 
     /**
      * nah di bawah class di dalam block kalian juga bisa membuat field

@@ -11,6 +11,7 @@ public class Tech {
          */
         laptop.setChipset("Intel I5 Gen 8");
         laptop.setFirmware("Windows 10");
+        laptop.namaStore(); // yah intinya method final berguna agar isi nya susah di ambil dan jugi di overload
 
         /*
         Dan juga memanggil method get untuk mendapatkan field tersebut

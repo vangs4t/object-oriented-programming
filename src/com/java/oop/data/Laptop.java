@@ -1,6 +1,7 @@
 package com.java.oop.data;
 
 public class Laptop extends Computers{
+    private ProductElektronik product = new ProductElektronik("Lazada");
     private String chipset;
     private String firmware;
 
@@ -32,5 +33,9 @@ public class Laptop extends Computers{
 
     public void setFirmware(String firmware) {
         this.firmware = firmware;
+    }
+
+    public final void namaStore(){
+        System.out.println(product.seller);
     }
 }
