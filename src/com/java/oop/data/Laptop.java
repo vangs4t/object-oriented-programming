@@ -14,7 +14,6 @@ public class Laptop extends Computers{
     public Laptop(){
 
     }
-
     public String getChipset() {
         if (chipset != null){
             return chipset;
